@@ -1,0 +1,34 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width:34px;
+}
+.square:focus{
+    outline: none;
+    background-color: #ddd;
+}
+.Board {
+display: block;
+}
+.Board .rows{
+display: block;
+width: 100px;
+}
+.game {
+    display: flex;
+    margin-left: 3rem;        
+}
+
+.status{
+    font-size: 1.2rem;
+    padding:.4rem 0;
+}
